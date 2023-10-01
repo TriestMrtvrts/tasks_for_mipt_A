@@ -12,8 +12,8 @@ from sklearn.ensemble import VotingRegressor
 submit_sample = pd.read_csv("/content/dataset/mars-sample_submission-regr.csv")
 submit_sample.head(50)
 #посмотрим тестовые данных
-test = pd.read_csv("/content/mars-private_test-reg.csv")
-test.head(50)
+#test = pd.read_csv("/content/mars-private_test-reg.csv")
+#test.head(50)
 #train
 train = pd.read_csv("/content/dataset/mars-train-regr.csv")
 train.head(50)
